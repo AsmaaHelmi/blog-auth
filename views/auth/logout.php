@@ -1,10 +1,12 @@
 <?php 
-session_start();
+
 session_unset();
-header("index.php?page=login");
+header("Location:index.php");
 exit;
 
 ?>
+
+
 
 
 
